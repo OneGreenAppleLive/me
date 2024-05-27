@@ -63,6 +63,13 @@ button:hover,
   color: #fff;
   filter: brightness(90%);
 }
+/* Общий стиль для дополнительного текста */
+.button .button-comment {
+  display: block;
+  font-size: 12px; /* Размер текста для комментария */
+  color: #ffffff; /* Цвет текста для комментария */
+  margin-top: 5px; /* Расстояние от основного текста кнопки */
+}
 
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -34,6 +34,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/littlelink.png">
 
+  <link
+  href="https://cdn.jsdelivr.net/npm/shareon@2/dist/shareon.min.css"
+  rel="stylesheet"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/shareon@2/dist/shareon.iife.js"
+  defer
+  init
+></script>
+
 </head>
 
 <body>
@@ -73,15 +83,27 @@
 
         <div class="links">
           <!-- TikTok -->
-          <a class="button button-tiktok" href="https://tiktok.com/@one_green_apple" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">TikTok</a><br>
-          <a class="button button-tiktok" href="https://tiktok.com/@mylybimka" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">TikTok (резерв)</a><br>
+          <a class="button button-tiktok" href="https://tiktok.com/@one_green_apple" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">
+            TikTok
+            <span class="button-comment">Основной канал</span>
+          </a><br>
+          <a class="button button-tiktok" href="https://tiktok.com/@mylybimka" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">
+            TikTok
+            <span class="button-comment">Резервный канал</span>
+          </a><br>
 <!--          <a class="button button-yt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a><br>-->
 <!--          <a class="button button-twitch" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a><br>-->
-          <a class="button button-telegram" href="https://t.me/greenapplelive" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/telegram.svg" alt="Telegram Logo">Telegram</a><br>
+          <a class="button button-telegram" href="https://t.me/greenapplelive" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/telegram.svg" alt="Telegram Logo">
+            Telegram
+            <span class="button-comment">Анонсы новых стримов и видео с прошедших</span>
+          </a><br>
           <br>
           <p>Донаты:</p>
 <!--          <a class="button button-patreon" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/patreon.svg" alt="Patreon Logo">Patreon</a><br>-->
-          <a class="button button-donationalerts" href="https://www.donationalerts.com/r/one_green_apple" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/DA_Alert_Color.png" alt="DA Logo">Donationalerts</a><br>
+          <a class="button button-donationalerts" href="https://www.donationalerts.com/r/one_green_apple" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/DA_Alert_Color.png" alt="DA Logo">
+            Donationalerts
+            <span class="button-comment">Донат без комиссии TikTok</span>
+          </a><br>
 <!--          <a class="button button-boosty" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/boosty.png" alt="DA Logo">Boosty</a><br>-->
 
         </div>
@@ -469,7 +491,30 @@
 <!--        &lt;!&ndash; Generic Website &ndash;&gt;-->
 <!--        <a class="button button-default" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-website.svg" alt="Website Icon">Visit Website</a><br>-->
         <br>
-        <!-- 
+        <div class="shareon">
+  <a class="facebook"></a>
+  <a class="fediverse"></a>
+  <a class="linkedin"></a>
+  <a class="mastodon"></a>
+  <!-- FB App ID is required for the Messenger button to function -->
+  <a class="messenger" data-fb-app-id="0123456789012345"></a>
+  <a class="odnoklassniki"></a>
+  <a class="pinterest"></a>
+  <a class="pocket"></a>
+  <a class="reddit"></a>
+  <a class="teams"></a>
+  <a class="telegram"></a>
+  <a class="tumblr"></a>
+  <a class="twitter"></a>
+  <a class="viber"></a>
+  <a class="vkontakte"></a>
+  <a class="whatsapp"></a>
+  <a class="copy-url"></a>
+  <a class="email"></a>
+  <a class="print"></a>
+</div>
+        <br>
+        <!--
             Footer:
             This includes a link to privacy.html page which can be setup for your Privacy Policy.
             This also includes a link to the LittleLink repository to make forking LittleLink easier.
