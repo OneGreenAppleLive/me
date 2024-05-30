@@ -81,6 +81,14 @@ button:hover,
   height: 20px;
 }
 
+.icon-destream {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 200px;
+  height: 30px;
+}
+
+
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -709,6 +717,16 @@ button:hover,
 }
 .button.button-donationalerts:hover,
 .button.button-donationalerts:focus {
+  filter: brightness(90%);
+}
+/* Destream */
+.button.button-destream {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-destream:hover,
+.button.button-destream:focus {
   filter: brightness(90%);
 }
 
