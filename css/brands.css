@@ -1236,7 +1236,7 @@ button:hover,
   line-height: 25px; /* Высота строки */
   padding: 14px 12px 12px 12px; /* Внутренние отступы, как у кнопки */
   width: 300px; /* Ширина текста */
-  border: 1px solid gray; /* серая рамка толщиной 1 пиксель */
+  border: 2px solid gray; /* серая рамка толщиной 1 пиксель */
   border-radius: 8px; /* Скругление углов */
   margin-bottom: 20px; /* Отступ снизу в пикселях */
 }
